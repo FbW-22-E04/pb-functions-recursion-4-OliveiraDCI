@@ -1,6 +1,19 @@
 // Write your code here:
+console.clear();
+//
+//
+//
+//
+//
 
+function fibonacci(num) {
+  if (num === 0) return [0];
+  if (num === 1) return [0, 1];
+  let result = fibonacci(num - 1);
+  result.push(result[result.length - 1] + result[result.length - 2]);
 
+  return result;
+}
 
 console.log(fibonacci(0)); // [0]
 console.log(fibonacci(1)); // [ 0, 1 ]
