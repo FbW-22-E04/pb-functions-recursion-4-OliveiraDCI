@@ -1,10 +1,4 @@
 // Write your code here:
-console.clear();
-//
-//
-//
-//
-//
 
 function fibonacci(num) {
   if (num === 0) return [0];
